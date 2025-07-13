@@ -373,7 +373,7 @@ export default function ContactPage() {
                     size="lg"
                     className="w-full bg-primary hover:bg-primary/90 text-white transition-all hover:scale-105 focus:ring-2 focus:ring-primary focus:ring-offset-2"
                   >
-                    Send Message & Get Free Consultation
+                    Send Message
                     <Send className="ml-2 h-5 w-5" />
                   </Button>
                 </form>

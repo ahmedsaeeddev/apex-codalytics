@@ -150,7 +150,7 @@ export function Footer() {
 
         <div className="border-t border-gray-200 dark:border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-600 dark:text-gray-400">
-            © 2024 Apex Codalytics. All rights reserved. | Professional Software Development Services
+            © 2025 Apex Codalytics. All rights reserved. | Professional Software Development Services
           </p>
         </div>
       </div>

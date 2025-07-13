@@ -11,7 +11,7 @@ export default function ServicesPage() {
       description:
         "We start by understanding your business goals, target audience, and technical requirements through comprehensive research and analysis.",
       features: ["Market Research", "Competitor Analysis", "Technical Audit", "Strategy Planning"],
-      price: "Starting at $2,500",
+      price: "Starting at $25",
     },
     {
       icon: Palette,
@@ -19,14 +19,14 @@ export default function ServicesPage() {
       description:
         "Create a distinctive brand identity that resonates with your audience and sets you apart from the competition.",
       features: ["Logo Design", "Brand Guidelines", "Color Palette", "Typography Selection"],
-      price: "Starting at $3,500",
+      price: "Starting at $15",
     },
     {
       icon: Monitor,
       title: "Web Design & UX",
       description: "Design intuitive and visually compelling user experiences that convert visitors into customers.",
       features: ["UI/UX Design", "Responsive Design", "Prototyping", "User Testing"],
-      price: "Starting at $4,500",
+      price: "Starting at $60",
     },
     {
       icon: FileText,
@@ -34,21 +34,21 @@ export default function ServicesPage() {
       description:
         "Craft compelling content that engages your audience and drives meaningful interactions with your brand.",
       features: ["Copywriting", "Content Strategy", "SEO Optimization", "Content Management"],
-      price: "Starting at $2,000",
+      price: "Starting at $20",
     },
     {
       icon: Code,
       title: "Development",
       description: "Build robust, scalable solutions using cutting-edge technology and industry best practices.",
       features: ["Frontend Development", "Backend Development", "Database Design", "API Integration"],
-      price: "Starting at $8,000",
+      price: "Starting at $150",
     },
     {
       icon: Rocket,
       title: "Launch & Growth",
       description: "Deploy your solution and provide ongoing support to ensure continuous growth and optimization.",
       features: ["Deployment", "Performance Monitoring", "Maintenance", "Growth Analytics"],
-      price: "Starting at $1,500/month",
+      price: "Starting at $50/month",
     },
   ]
 

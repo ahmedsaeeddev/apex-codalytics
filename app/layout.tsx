@@ -5,7 +5,6 @@ import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { AccessibilityToolbar } from "@/components/accessibility-toolbar"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -323,7 +322,6 @@ export default function RootLayout({
               {children}
             </main>
             <Footer />
-            <AccessibilityToolbar />
           </div>
         </ThemeProvider>
       </body>

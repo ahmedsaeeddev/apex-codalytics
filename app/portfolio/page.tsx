@@ -68,62 +68,62 @@ export const metadata: Metadata = {
 export default function PortfolioPage() {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A modern e-commerce solution with advanced inventory management and seamless payment integration.",
+      title: "Quality Digitize",
+      description: "A modern 3d animated Website developed using Next JS & Tailwind CSS included amazing animations motion graphics and a masterpiece of Framer Motion.",
+      image: "/quality-digitize.jpg",
+      tags: ["Next JS", "Framer Motion", "3D Animations"],
+      category: "Web Development",
+      link: "https://quality-digitize.vercel.app/",
+      github: "",
+    },
+    {
+      title: "United Punch",
+      description: "Static Website for an American based Digitizing Company with seamless UI and accessibility features and cross browser compatibility.",
       image: "/placeholder.svg?height=300&width=500",
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
+      tags: ["HTML", "CSS", "JS", "Bootstrap"],
       category: "Web Development",
       link: "/contact",
       github: "#",
     },
     {
-      title: "Healthcare Management System",
-      description: "Comprehensive healthcare platform for patient management, appointments, and medical records.",
-      image: "/placeholder.svg?height=300&width=500",
-      tags: ["Next.js", "PostgreSQL", "TypeScript", "Tailwind"],
-      category: "Healthcare",
-      link: "/contact",
-      github: "#",
-    },
-    {
-      title: "Financial Dashboard",
-      description: "Real-time financial analytics dashboard with advanced reporting and data visualization.",
-      image: "/placeholder.svg?height=300&width=500",
-      tags: ["Vue.js", "Python", "D3.js", "AWS"],
+      title: "Microfinance Dashboard",
+      description: "Real-time Microfinance analytics dashboard with advanced reporting and data visualization. Made for Loan application Companies.",
+      image: "/placeholder.svg?height=300&width=500", 
+      tags: ["React JS", "Node JS", "MongoDB", "CSS"],
       category: "FinTech",
       link: "/contact",
       github: "#",
     },
     {
-      title: "Mobile Learning App",
-      description: "Interactive mobile application for online learning with gamification and progress tracking.",
-      image: "/placeholder.svg?height=300&width=500",
-      tags: ["React Native", "Firebase", "Redux", "Expo"],
-      category: "Education",
-      link: "/contact",
+      title: "Grafico Sourcing",
+      description: "Interactive Website developed for a Digitizing Company in California with minimal layout and awesome animations made purely using React JS.",
+      image: "/grafico-sourcing.jpg/",
+      tags: ["HTML", "CSS", "JS", "Bootstrap"],
+      category: "Digitizing Service",
+      link: "https://graficosourcing.org",
+      github: "https://github.com/ahmedsaeeddev/grafico-sourcing",
+    },
+    {
+      title: "Classic Punch",
+      description: "Complete Wordpress Website for a Digitizing Company based in U.S with a visually appealing UI and Awesome Animations.",
+      image: "/classic-punch.jpg",
+      tags: ["Wordpress", "CSS"],
+      category: "Wordpress Development",
+      link: "https://classicpunch.net",
       github: "#",
     },
     {
-      title: "Restaurant Management",
-      description: "Complete restaurant management system with POS, inventory, and customer management features.",
-      image: "/placeholder.svg?height=300&width=500",
-      tags: ["Angular", "Express.js", "MySQL", "Socket.io"],
-      category: "Restaurant",
-      link: "/contact",
-      github: "#",
-    },
-    {
-      title: "Real Estate Platform",
-      description: "Modern real estate platform with property listings, virtual tours, and agent management.",
-      image: "/placeholder.svg?height=300&width=500",
-      tags: ["React", "GraphQL", "Prisma", "Vercel"],
-      category: "Real Estate",
-      link: "/contact",
-      github: "#",
+      title: "Patch Dispatcher",
+      description: "Modern Digitizing Company Website with Professional Layout with proper User Experience and Awesome animations",
+      image: "/patch-dispatcher.jpg",
+      tags: ["React", "Vercel"],
+      category: "Web Development",
+      link: "https://patchdispatcher.com",
+      github: "https://github.com/patch_dispatcher/",
     },
   ]
 
-  const categories = ["All", "Web Development", "Healthcare", "FinTech", "Education", "Restaurant", "Real Estate"]
+  const categories = ["All", "Web Development", "Graphic Design", "Digital Marketing", "Wordpress Development"]
 
   return (
     <div className="min-h-screen py-12">
@@ -221,10 +221,10 @@ export default function PortfolioPage() {
         <section className="py-16 glass-card-light rounded-2xl mb-16">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             {[
-              { number: "150+", label: "Projects Completed in Karachi" },
+              { number: "15+", label: "Projects Completed in Karachi" },
               { number: "98%", label: "Client Satisfaction Rate" },
-              { number: "50+", label: "Happy Clients in Pakistan" },
-              { number: "5+", label: "Years Experience in Software Development" },
+              { number: "20+", label: "Happy Clients in Pakistan" },
+              { number: "2+", label: "Years Experience in Software Development" },
             ].map((stat, index) => (
               <div key={stat.label} className="animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
                 <div className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-2">{stat.number}</div>

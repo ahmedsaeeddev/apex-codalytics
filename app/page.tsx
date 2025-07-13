@@ -17,15 +17,15 @@ import Link from "next/link"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "#1 Software Development Company Pakistan | Apex Codalytics Karachi | 500+ Projects Delivered",
+  title: "#1 Software Development Company Pakistan | Apex Codalytics Karachi | 15+ Projects Delivered",
   description:
-    "TOP-RATED Software Development Company in Pakistan! Expert Web Development, Mobile Apps, Custom Software Solutions in Karachi. 500+ Projects | 24/7 Support | Free Consultation +92 311 234 8744",
+    "TOP-RATED Software Development Company in Pakistan! Expert Web Development, Mobile Apps, Custom Software Solutions in Karachi. 15+ Projects | 24/7 Support | Free Consultation +92 311 234 8744",
   keywords:
     "software development company Pakistan, web development Karachi, mobile app development Pakistan, best software company Karachi, custom software development, React development Pakistan, Node.js development, e-commerce development Pakistan",
   openGraph: {
     title: "#1 Software Development Company Pakistan | Apex Codalytics",
     description:
-      "TOP-RATED Software Development Company in Pakistan! Expert Web Development, Mobile Apps, Custom Software Solutions in Karachi. 500+ Projects Delivered!",
+      "TOP-RATED Software Development Company in Pakistan! Expert Web Development, Mobile Apps, Custom Software Solutions in Karachi. 15+ Projects Delivered!",
     url: "https://apex-codalytics.vercel.app",
   },
   alternates: {
@@ -48,7 +48,7 @@ export default function HomePage() {
                   <Star key={i} className="h-6 w-6 text-yellow-400 fill-current" />
                 ))}
               </div>
-              <span className="text-lg font-semibold text-primary">4.9/5 Rating | 500+ Projects Delivered</span>
+              <span className="text-lg font-semibold text-primary">4.9/5 Rating | 15+ Projects Delivered</span>
             </div>
 
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6 leading-tight animate-scale-in">
@@ -69,7 +69,7 @@ export default function HomePage() {
             {/* Trust Indicators */}
             <div className="mb-8 flex flex-wrap justify-center gap-4 text-sm font-medium animate-fade-in">
               <span className="bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 px-3 py-1 rounded-full">
-                500+ Projects Completed
+                15+ Projects Completed
               </span>
               <span className="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-3 py-1 rounded-full">
                 #1 in Pakistan
@@ -117,7 +117,7 @@ export default function HomePage() {
                 className="px-8 py-4 text-lg font-medium hover:bg-primary hover:text-white transition-all duration-300 hover:scale-105 focus:ring-2 focus:ring-primary focus:ring-offset-2 border-primary/30 hover:border-primary"
                 asChild
               >
-                <Link href="/portfolio">View 500+ Success Stories</Link>
+                <Link href="/portfolio">View 15+ Success Stories</Link>
               </Button>
             </div>
           </div>
@@ -161,8 +161,8 @@ export default function HomePage() {
               },
               {
                 icon: FileText,
-                title: "Content & SEO Pakistan",
-                desc: "SEO-optimized content creation and digital marketing strategies that drive organic traffic in Pakistan",
+                title: "Content & SEO Opt.",
+                desc: "SEO-optimized content creation and digital marketing strategies that drive organic traffic worldwide",
                 link: "/services#content",
               },
               {
@@ -225,7 +225,7 @@ export default function HomePage() {
               </h3>
               <div className="space-y-4">
                 {[
-                  "#1 Rated Software Development Company in Pakistan with 500+ successful projects",
+                  "#1 Rated Affordable Software Development Company in Pakistan with 15+ successful projects",
                   "Expert development team with 10+ years of experience in Karachi, Pakistan",
                   "Cutting-edge technology stack: React, Node.js, Python, Flutter, React Native",
                   "24/7 technical support and maintenance services across Pakistan",
@@ -283,7 +283,7 @@ export default function HomePage() {
                     <p className="text-primary font-semibold">FREE Consultation & Quote</p>
                   </div>
                   <p className="text-gray-600 dark:text-gray-300 mb-6 text-center">
-                    Join 500+ satisfied clients who chose Pakistan's #1 software development company. Let's transform
+                    Join 20+ satisfied clients who chose Pakistan's #1 software development company. Let's transform
                     your business with custom digital solutions.
                   </p>
                   <div className="space-y-3 mb-6">
