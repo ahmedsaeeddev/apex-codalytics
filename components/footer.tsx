@@ -33,7 +33,7 @@ export function Footer() {
                 <Instagram className="h-5 w-5" />
               </Link>
               <Link
-                href="https://twitter.com/apexcodalytics"
+                href="https://x.com/apexcodalytics"
                 className="text-gray-400 hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-md p-1"
                 aria-label="Follow Apex Codalytics on Twitter"
                 target="_blank"

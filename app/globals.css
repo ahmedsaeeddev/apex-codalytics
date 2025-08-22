@@ -11,6 +11,7 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
   .glass {
     @apply bg-white/10 backdrop-blur-md border border-white/20;
   }
@@ -37,9 +38,11 @@ body {
     0% {
       background-position: 0% 50%;
     }
+
     50% {
       background-position: 100% 50%;
     }
+
     100% {
       background-position: 0% 50%;
     }
@@ -95,8 +98,9 @@ body {
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 221.2 83.2% 53.3%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 190 90% 55%;
+    /* Cyan/Teal (matching logo icon) */
+    --primary-foreground: 220 60% 12%;
     --secondary: 210 40% 96%;
     --secondary-foreground: 222.2 84% 4.9%;
     --muted: 210 40% 96%;
@@ -128,8 +132,10 @@ body {
   }
 
   .dark {
-    --background: 220 15% 10%; /* Deeper, more neutral dark blue-gray */
-    --foreground: 210 20% 90%; /* Slightly less bright white for text */
+    --background: 220 15% 10%;
+    /* Deeper, more neutral dark blue-gray */
+    --foreground: 210 20% 90%;
+    /* Slightly less bright white for text */
     --card: 220 15% 15%;
     --card-foreground: 210 20% 90%;
     --popover: 220 15% 15%;
@@ -142,13 +148,15 @@ body {
     --accent-foreground: 210 20% 90%;
     --border: 220 15% 25%;
     --input: 220 15% 25%;
-    --ring: 221.2 83.2% 53.3%; /* Primary blue */
+    --ring: 221.2 83.2% 53.3%;
+    /* Primary blue */
   }
 
   /* Font size adjustments */
   html.font-size-lg {
     font-size: 18px;
   }
+
   html.font-size-xl {
     font-size: 20px;
   }
@@ -156,27 +164,38 @@ body {
   /* High Contrast Mode */
   html.high-contrast {
     filter: invert(1) hue-rotate(180deg);
-    background-color: #000 !important; /* Ensure background is truly black */
+    background-color: #000 !important;
+    /* Ensure background is truly black */
   }
+
   html.high-contrast img,
   html.high-contrast video {
-    filter: invert(1) hue-rotate(180deg); /* Invert images/videos back */
+    filter: invert(1) hue-rotate(180deg);
+    /* Invert images/videos back */
   }
+
   html.high-contrast .bg-primary,
   html.high-contrast .text-primary {
-    filter: invert(1) hue-rotate(180deg); /* Invert primary colors back */
+    filter: invert(1) hue-rotate(180deg);
+    /* Invert primary colors back */
   }
+
   html.high-contrast .shadow-glow-blue {
-    box-shadow: none !important; /* Remove shadows in high contrast */
+    box-shadow: none !important;
+    /* Remove shadows in high contrast */
   }
+
   html.high-contrast .glass-card-light,
   html.high-contrast .service-card,
   html.high-contrast .glass-header {
-    background: #fff !important; /* Solid background for glass elements */
-    border: 2px solid #000 !important; /* Strong border */
+    background: #fff !important;
+    /* Solid background for glass elements */
+    border: 2px solid #000 !important;
+    /* Strong border */
     backdrop-filter: none !important;
     box-shadow: none !important;
   }
+
   html.high-contrast .dark .glass-card-light,
   html.high-contrast .dark .service-card,
   html.high-contrast .dark .glass-header {
@@ -203,6 +222,7 @@ body {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -211,6 +231,7 @@ body {
 /* Ensure content doesn't get hidden behind accessibility button on mobile */
 @media (max-width: 768px) {
   main {
-    padding-bottom: 5rem; /* Add padding to prevent content overlap */
+    padding-bottom: 5rem;
+    /* Add padding to prevent content overlap */
   }
 }

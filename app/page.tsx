@@ -17,15 +17,15 @@ import Link from "next/link"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "#1 Software Development Company Pakistan | Apex Codalytics Karachi | 15+ Projects Delivered",
+  title: "Custom Software Development | Apex Codalytics - Karachi, Pakistan",
   description:
-    "TOP-RATED Software Development Company in Pakistan! Expert Web Development, Mobile Apps, Custom Software Solutions in Karachi. 15+ Projects | 24/7 Support | Free Consultation +92 311 234 8744",
+    "Apex Codalytics is a Karachi-based software firm specializing in custom software development, web applications, and mobile app solutions for startups and enterprises in Pakistan and globally.",
   keywords:
-    "software development company Pakistan, web development Karachi, mobile app development Pakistan, best software company Karachi, custom software development, React development Pakistan, Node.js development, e-commerce development Pakistan",
+    "custom software development Pakistan, web application Karachi, mobile app developers, software agency Karachi, enterprise app solutions, React and Node.js experts Pakistan",
   openGraph: {
-    title: "#1 Software Development Company Pakistan | Apex Codalytics",
+    title: "Custom Software Development | Apex Codalytics",
     description:
-      "TOP-RATED Software Development Company in Pakistan! Expert Web Development, Mobile Apps, Custom Software Solutions in Karachi. 15+ Projects Delivered!",
+      "Apex Codalytics delivers tailored web and mobile software solutions for clients in Pakistan and beyond. Explore our 15+ project success stories.",
     url: "https://apex-codalytics.vercel.app",
   },
   alternates: {
@@ -52,18 +52,15 @@ export default function HomePage() {
             </div>
 
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6 leading-tight animate-scale-in">
-              #1 <span className="text-primary">Software Development Company</span> in Pakistan
+              <span className="text-primary">Custom Software Development</span> for Ambitious Businesses
             </h1>
 
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 dark:text-gray-100 mb-6 animate-slide-in">
-              Expert Web Development, Mobile Apps & Custom Software Solutions in Karachi
+              Web Platforms, Mobile Apps & Tailored Digital Solutions — Built in Karachi
             </h2>
 
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed animate-slide-in-right">
-              <strong>TOP-RATED Software Development Company in Pakistan</strong> delivering exceptional digital
-              solutions, custom web applications, mobile apps, and enterprise software with precision, reliability, and
-              unwavering dedication to your business success.{" "}
-              <strong>Serving Karachi, Pakistan and clients worldwide</strong> with cutting-edge technology solutions.
+              Apex Codalytics helps startups and enterprises build scalable software products including web applications, mobile apps, and internal tools. We serve clients in Karachi and globally with end-to-end digital expertise.
             </p>
 
             {/* Trust Indicators */}
@@ -72,13 +69,13 @@ export default function HomePage() {
                 15+ Projects Completed
               </span>
               <span className="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-3 py-1 rounded-full">
-                #1 in Pakistan
+                Based in Karachi
               </span>
               <span className="bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 px-3 py-1 rounded-full">
                 24/7 Support
               </span>
               <span className="bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-300 px-3 py-1 rounded-full">
-                100% Client Satisfaction
+                Focused on Client Success
               </span>
             </div>
 
@@ -88,7 +85,7 @@ export default function HomePage() {
                 className="flex items-center justify-center gap-2 text-primary hover:text-primary/80 transition-all duration-300 hover:scale-105 font-semibold"
               >
                 <Phone className="h-5 w-5" />
-                +92 311 234 8744 (Free Consultation)
+                +92 311 234 8744 (Consult Now)
               </Link>
               <span className="hidden sm:inline text-gray-400">|</span>
               <Link
@@ -107,7 +104,7 @@ export default function HomePage() {
                 asChild
               >
                 <Link href="/contact">
-                  Get FREE Quote & Consultation
+                  Get a Custom Quote
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
                 </Link>
               </Button>
@@ -129,52 +126,53 @@ export default function HomePage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 animate-scale-in">
-              Professional Software Development Services in Pakistan
+              Software Development Services in Pakistan
             </h2>
             <h3 className="text-xl md:text-2xl font-semibold text-primary mb-4 animate-slide-in">
-              Leading Web Development, Mobile App Development & Custom Software Solutions in Karachi
+              Web, Mobile, and Custom Software Solutions from Karachi
             </h3>
             <p className="text-xl text-primary max-w-3xl mx-auto animate-slide-in-right">
-              Comprehensive digital solutions tailored to your business needs in Pakistan and worldwide.
-              <strong> Expert React, Node.js, Python, and Mobile App Development Services.</strong>
+              Tailored digital products built to meet your business needs in Pakistan and beyond.
+              <strong> React, Node.js, Python, and cross-platform mobile app expertise.</strong>
             </p>
           </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {[
               {
                 icon: Search,
                 title: "Discovery & Strategy",
-                desc: "Comprehensive business analysis and digital strategy planning for optimal software solutions in Pakistan",
+                desc: "Business analysis and digital planning for effective software outcomes.",
                 link: "/services#discovery",
               },
               {
                 icon: Palette,
-                title: "UI/UX Design Pakistan",
-                desc: "Creating distinctive brand identities and user experiences that convert visitors into customers across Pakistan",
+                title: "UI/UX Design",
+                desc: "Clear, modern interface design focused on user experience.",
                 link: "/services#design",
               },
               {
                 icon: Monitor,
-                title: "Web Development Karachi",
-                desc: "Custom web applications, e-commerce platforms, and responsive websites using latest technologies in Pakistan",
+                title: "Web Development",
+                desc: "Responsive, scalable web apps built with modern technologies.",
                 link: "/services#web-development",
               },
               {
                 icon: FileText,
-                title: "Content & SEO Opt.",
-                desc: "SEO-optimized content creation and digital marketing strategies that drive organic traffic worldwide",
+                title: "Content & SEO",
+                desc: "Content writing and SEO strategies to improve search visibility.",
                 link: "/services#content",
               },
               {
                 icon: Code,
                 title: "Software Development",
-                desc: "Custom software solutions, mobile apps, and enterprise applications built with cutting-edge technology",
+                desc: "Custom-built software and mobile apps tailored to your goals.",
                 link: "/services#development",
               },
               {
                 icon: Rocket,
                 title: "Launch & Growth",
-                desc: "Deployment, maintenance, and continuous optimization for sustained business growth in Pakistan",
+                desc: "Deployment, support, and continuous product improvement.",
                 link: "/services#launch",
               },
             ].map((service, index) => (
@@ -196,6 +194,7 @@ export default function HomePage() {
               </Link>
             ))}
           </div>
+
           <div className="text-center mt-12 animate-scale-in">
             <Button
               variant="outline"
@@ -204,7 +203,7 @@ export default function HomePage() {
               asChild
             >
               <Link href="/services">
-                View All Premium Services
+                View All Services
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
@@ -212,28 +211,29 @@ export default function HomePage() {
         </div>
       </section>
 
+
       {/* Why Choose Us - Enhanced */}
       <section className="py-20 animate-fade-in" id="about">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6 animate-scale-in">
-                Why Choose Apex Codalytics - Pakistan's #1 Software Development Company?
+                Why Partner with Apex Codalytics for Your Next Software Project?
               </h2>
               <h3 className="text-xl font-semibold text-primary mb-6 animate-slide-in">
-                Leading Software Development Services in Karachi, Pakistan
+                Full-Cycle Software Development Services from Karachi, Pakistan
               </h3>
               <div className="space-y-4">
                 {[
-                  "#1 Rated Affordable Software Development Company in Pakistan with 15+ successful projects",
-                  "Expert development team with 10+ years of experience in Karachi, Pakistan",
-                  "Cutting-edge technology stack: React, Node.js, Python, Flutter, React Native",
-                  "24/7 technical support and maintenance services across Pakistan",
-                  "Agile development methodology with transparent project management",
-                  "100% client satisfaction guarantee with comprehensive post-launch support",
-                  "Most competitive pricing for premium software solutions in Pakistan",
-                  "Strong local presence in Karachi with global service delivery capabilities",
-                  "Specialized in e-commerce, fintech, healthcare, and enterprise solutions",
+                  "Custom software crafted for business needs — 15+ successful deployments",
+                  "Skilled team with over a decade of development experience in Pakistan",
+                  "Modern tech stack including React, Node.js, Python, Flutter, and more",
+                  "Reliable support and maintenance available around the clock",
+                  "Agile project workflows with clear communication at every step",
+                  "Strong client relationships with long-term engagement focus",
+                  "Transparent pricing models tailored to your business goals",
+                  "Locally rooted in Karachi with clients across multiple regions",
+                  "Industry expertise across e-commerce, healthcare, finance, and SaaS",
                 ].map((feature, index) => (
                   <div
                     key={index}
@@ -247,10 +247,10 @@ export default function HomePage() {
               </div>
               <div className="mt-8 p-6 glass-card-light rounded-lg border-2 border-primary/20 hover:border-primary/40 transition-all duration-300 animate-bounce-in">
                 <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
-                  Ready to Start Your Software Development Project in Pakistan?
+                  Let’s Build Something Meaningful Together
                 </h4>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Contact Pakistan's leading software development company for a FREE consultation!
+                  Reach out to discuss your idea, get a tailored plan, and start building your next software product with a dedicated team in Pakistan.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <Link
@@ -270,6 +270,7 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
+
             <div className="animate-fade-in">
               <Card className="glass-card-light hover:shadow-2xl transition-all duration-500 border-2 border-primary/20 hover:border-primary/40 hover:scale-105 shadow-glow-blue">
                 <CardContent className="p-8">
@@ -279,12 +280,11 @@ export default function HomePage() {
                         <Star key={i} className="h-8 w-8 text-yellow-400 fill-current" />
                       ))}
                     </div>
-                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Start Your Project Today!</h3>
-                    <p className="text-primary font-semibold">FREE Consultation & Quote</p>
+                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Start Your Project Today</h3>
+                    <p className="text-primary font-semibold">Consult with our team to plan your solution</p>
                   </div>
                   <p className="text-gray-600 dark:text-gray-300 mb-6 text-center">
-                    Join 20+ satisfied clients who chose Pakistan's #1 software development company. Let's transform
-                    your business with custom digital solutions.
+                    Businesses across industries trust Apex Codalytics for software development services that deliver results. Let’s work together on your next idea.
                   </p>
                   <div className="space-y-3 mb-6">
                     <Link
@@ -306,7 +306,7 @@ export default function HomePage() {
                     className="w-full bg-primary hover:bg-primary/90 text-white transition-all duration-300 hover:scale-105 focus:ring-2 focus:ring-primary focus:ring-offset-2 text-lg py-3 shadow-glow-blue"
                     asChild
                   >
-                    <Link href="/contact">Get FREE Quote Now!</Link>
+                    <Link href="/contact">Get a Project Estimate</Link>
                   </Button>
                 </CardContent>
               </Card>
@@ -314,6 +314,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
     </div>
   )
 }
